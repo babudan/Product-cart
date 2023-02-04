@@ -9,7 +9,6 @@ import {
 import Signup from './components/Signup';
 import Signin from './components/Signin';
 import Home from './components/Home';
-import ForgetPassword from './components/ForgetPassword';
 import NewSubmit from './components/NewSubmit';
 
 
@@ -22,7 +21,6 @@ function App() {
           <Route path="/add-user" element={<Signup />} />
           <Route path="/login-user" element={<Signin />} />
           <Route path="/" element={<Home />} />
-          <Route path="/forget-pass" element={<ForgetPassword />} />
           <Route path="/otp" element={<NewSubmit />} />
         </Routes>
       </Router>

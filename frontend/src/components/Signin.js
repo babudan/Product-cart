@@ -61,8 +61,6 @@ function Signin() {
                 className="btns"> SUBMIT </button>
             <Link style={{ textAlign: 'center', display: 'block', marginTop: '5px' }}
                 to={'/add-user'}> SIGN UP </Link>
-            <Link style={{ textAlign: 'center', display: 'block', marginTop: '5px' }}
-                to={'/forget-pass'}> Forget Password </Link>
         </div>
     </>
     )
